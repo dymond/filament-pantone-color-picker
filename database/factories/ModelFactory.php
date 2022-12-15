@@ -1,6 +1,6 @@
 <?php
 
-namespace HappyToDev\FilamentTailwindColorPicker\Database\Factories;
+namespace dymond\FilamentPantoneColorPicker\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

@@ -1,5 +1,5 @@
 <?php
 
-use HappyToDev\FilamentTailwindColorPicker\Tests\TestCase;
+use dymond\FilamentPantoneColorPicker\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

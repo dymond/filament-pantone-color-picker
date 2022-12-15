@@ -1,12 +1,12 @@
 <?php
 
-namespace HappyToDev\FilamentTailwindColorPicker\Commands;
+namespace dymond\FilamentPantoneColorPicker\Commands;
 
 use Illuminate\Console\Command;
 
-class FilamentTailwindColorPickerCommand extends Command
+class FilamentPantoneColorPickerCommand extends Command
 {
-    public $signature = 'filament-tailwind-color-picker';
+    public $signature = 'filament-pantone-color-picker';
 
     public $description = 'My command';
 

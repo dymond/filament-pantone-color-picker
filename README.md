@@ -2,10 +2,10 @@
 
 # Specific Tailwindcss color picker for Filamentphp
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/happytodev/filament-tailwind-color-picker.svg?style=flat-square)](https://packagist.org/packages/happytodev/filament-tailwind-color-picker)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/happytodev/filament-tailwind-color-picker/run-tests?label=tests)](https://github.com/happytodev/filament-tailwind-color-picker/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/happytodev/filament-tailwind-color-picker/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/happytodev/filament-tailwind-color-picker/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/happytodev/filament-tailwind-color-picker.svg?style=flat-square)](https://packagist.org/packages/happytodev/filament-tailwind-color-picker)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dymond/filament-pantone-color-picker.svg?style=flat-square)](https://packagist.org/packages/dymond/filament-pantone-color-picker)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/dymond/filament-pantone-color-picker/run-tests?label=tests)](https://github.com/dymond/filament-pantone-color-picker/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/dymond/filament-pantone-color-picker/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/dymond/filament-pantone-color-picker/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/dymond/filament-pantone-color-picker.svg?style=flat-square)](https://packagist.org/packages/dymond/filament-pantone-color-picker)
 
 This plugin add a field in Filament Form to help you to select color in the Tailwind color's palette.
 
@@ -37,7 +37,7 @@ This plugin add a field in Filament Form to help you to select color in the Tail
 
 ## Support us
 
-[You can support the development of this open-source package here](https://github.com/sponsors/happytodev)
+[You can support the development of this open-source package here](https://github.com/sponsors/dymond)
 
 
 ## Installation
@@ -47,13 +47,13 @@ You need first a Filament installation working. For that, please read instructio
 You can install the package via composer:
 
 ```bash
-composer require happytodev/filament-tailwind-color-picker
+composer require dymond/filament-pantone-color-picker
 ```
 
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="filament-tailwind-color-picker-views"
+php artisan vendor:publish --tag="filament-pantone-color-picker-views"
 ```
 
 ## Usage
@@ -100,7 +100,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Frédéric Blanc](https://github.com/happytodev)
+- [Frédéric Blanc](https://github.com/dymond)
 - [All Contributors](../../contributors)
 
 ## License

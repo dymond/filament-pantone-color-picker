@@ -1,8 +1,8 @@
 <?php
 
-namespace HappyToDev\FilamentTailwindColorPicker\Tests;
+namespace dymond\FilamentPantoneColorPicker\Tests;
 
-use HappyToDev\FilamentTailwindColorPicker\FilamentTailwindColorPickerServiceProvider;
+use dymond\FilamentPantoneColorPicker\FilamentPantoneColorPickerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'HappyToDev\\FilamentTailwindColorPicker\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'dymond\\FilamentPantoneColorPicker\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            FilamentTailwindColorPickerServiceProvider::class,
+            FilamentPantoneColorPickerServiceProvider::class,
         ];
     }
 
@@ -29,7 +29,7 @@ class TestCase extends Orchestra
         config()->set('database.default', 'testing');
 
         /*
-        $migration = include __DIR__.'/../database/migrations/create_filament-tailwind-color-picker_table.php.stub';
+        $migration = include __DIR__.'/../database/migrations/create_filament-pantone-color-picker_table.php.stub';
         $migration->up();
         */
     }

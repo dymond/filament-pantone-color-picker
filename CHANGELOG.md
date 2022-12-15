@@ -1,10 +1,10 @@
 # Changelog
 
-All notable changes to `filament-tailwind-color-picker` will be documented in this file.
+All notable changes to `filament-pantone-color-picker` will be documented in this file.
 
 ## v0.1.9 - 2022-11-17
 
-Fix the https://github.com/happytodev/filament-tailwind-color-picker/issues/3 [bug](https://github.com/happytodev/filament-tailwind-color-picker/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+Fix the https://github.com/dymond/filament-pantone-color-picker/issues/3 [bug](https://github.com/dymond/filament-pantone-color-picker/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
 
 Thanks to @devadattas to found it and solve it ;-)
 
