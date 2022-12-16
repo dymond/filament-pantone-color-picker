@@ -5,23 +5,25 @@ namespace dymond\FilamentPantoneColorPicker\Forms\Components;
 use Filament\Forms\Components\Concerns\HasPlaceholder;
 use Filament\Forms\Components\Field;
 use Filament\Support\Concerns\HasExtraAlpineAttributes;
+use Filament\Forms\Components\Concerns\HasAffixes;
 
 class PantoneColorPicker extends Field
 {
     use HasPlaceholder;
+    use HasAffixes;
     use HasExtraAlpineAttributes;
 
     protected string $view = 'filament-pantone-color-picker::forms.components.pantone-color-picker';
 
     protected bool $isOpen = false;
 
-    public string $colorSelected = '';
+    public string $colorSelectedName = '';
     public string $colorSelectedHex = '';
     public string $colorSelectedRgb = '';
 
-    public function getColorSelected() : ?string
+    public function getColorSelectedName() : ?string
     {
-        return $this->colorSelected;
+        return $this->colorSelectedName;
     }
 
     public function getColorSelectedHex() : ?string
@@ -45,6 +47,8 @@ class PantoneColorPicker extends Field
     }
 
     public array $solidColors = [
+        [ 'name' => 'White', 'hex' => 'FFFFFF', 'rgb' => '255,255,255', ],
+        [ 'name' => 'Black C', 'hex' => '2D2926', 'rgb' => '45,41,38', ],
         [ 'name' => 'Yellow C', 'hex' => 'FEDD00', 'rgb' => '254,221,0', ],
         [ 'name' => 'Yellow 012 C', 'hex' => 'FFD700', 'rgb' => '255,215,0', ],
         [ 'name' => 'Orange 021 C', 'hex' => 'FE5000', 'rgb' => '254,80,0', ],
@@ -62,7 +66,6 @@ class PantoneColorPicker extends Field
         [ 'name' => 'Reflex Blue C', 'hex' => '001489', 'rgb' => '0,20,137', ],
         [ 'name' => 'Process Blue C', 'hex' => '0085CA', 'rgb' => '0,133,202', ],
         [ 'name' => 'Green C', 'hex' => '00AB84', 'rgb' => '0,171,132', ],
-        [ 'name' => 'Black C', 'hex' => '2D2926', 'rgb' => '45,41,38', ],
         [ 'name' => 'Yellow 0131 C', 'hex' => 'F2F0A1', 'rgb' => '242,240,161', ],
         [ 'name' => 'Red 0331 C', 'hex' => 'FCAEBB', 'rgb' => '252,174,187', ],
         [ 'name' => 'Magenta 0521 C', 'hex' => 'F1B2DC', 'rgb' => '241,178,220', ],
